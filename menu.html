@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+
+    <link rel="shortcut icon" href="images/restaurant.png" type="image/x-icon">
+
+    <!----------------------Font awesome library------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--------------------SWIPER CSS------------------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+
+    <!-----------------------STYLE CSS--------------------------->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-----------------------PRELOADER-------------------------->
+    <div class="preloader">
+        <div class="spinner">
+          <img src="images/feat1.png" alt="Restaurant Logo">
+          <div class="loader"></div>
+        </div>
+    </div>
+
+
+
+
+    
+
+    <!--------------------------NAVIGATION------------------------>
+    <nav>
+        <input title="menuBtn" type="checkbox" id="check">
+
+        <div class="content-max">
+            <div class="content">
+                <div class="logo">
+                    <a href="index.html"><i class="fa-solid fa-utensils"></i>Touch&eacute;</a>
+                </div>
+
+                <div class="content-navigation">
+                    <ul class="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a class="active" href="#">Menu</a></li>
+                        <li class="dropdown">
+                            <a class="btnDropdown" href="#">Pages <i class="fa-solid fa-caret-down"></i></a>
+
+                            <div class="dropdown-content">
+                                <a href="booking.html">Booking</a>
+                                <a href="team.html">Our Team</a>
+                                <a href="testimonials.html">Testimonial</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="btnNav"><a class="btn" href="booking.html">book a table</a></li>
+                    </ul>
+                </div>
+
+                <label for="check" class="checkbtn" id="toggle">
+                    <i class="fa-solid fa-bars btn-mobile"></i>
+                    <i class="fa-solid fa-xmark close-nav"></i>
+                </label>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <!--------------------------BANNER SECTION------------------------>
+    <section class="banner-contact">
+        <div class="content-max">
+            <div class="content">
+                <div class="title wow lightSpeedIn" data-wow-delay="2.2s">
+                    <h1>Food Menu</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+   <!---------------------------------------MENU SECTION-------------------------->
+   <section class="menu">
+    <div class="content-max">
+        <div class="content">
+            <div class="title-section wow fadeInUp" data-wow-delay=".2s">
+                <h5 class="section-title">Food Menu</h5>
+                <h1>Most Popular Items</h1>
+            </div>
+
+            <div class="content-items wow fadeInUp" data-wow-delay=".5s">
+
+                <div class="btn-items">
+
+                    <button type="button" class="toggleBtn1 active" onclick="breakfast()">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <div class="text">
+                            <small>Popular</small>
+                            <h5>Breakfast</h5>
+                        </div>
+                    </button>
+
+                    <button type="button" class="toggleBtn2" onclick="lunch()">
+                        <i class="fa-solid fa-burger"></i>
+                        <div class="text">
+                            <small>Special</small>
+                            <h5>Lunch</h5>
+                        </div>
+                    </button>
+
+                    <button type="button" class="toggleBtn3" onclick="dinner()">
+                        <i class="fa-solid fa-utensils"></i>
+                        <div class="text">
+                            <small>Lovely</small>
+                            <h5>Dinner</h5>
+                        </div>
+                    </button>
+
+                </div>
+
+                <div class="items-menu">
+
+                    <!------------------BREAKFAST MENU------------------->
+                    <div id="breakfast">
+                        <div class="item-menu">
+
+                            <div class="card">
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="card">
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Pica Pollo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <!------------------LUNCH MENU------------------->
+                    <div id="lunch">
+                        <div class="item-menu lunch">
+
+                            <div class="card">
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="card">
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Sancocho</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!------------------DINNER MENU------------------->
+                    <div id="dinner">
+                        <div class="item-menu dinner">
+
+                            <div class="card">
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="card">
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                                <div class="card-menu">
+                                    <div class="image">
+                                        <img src="images/menu-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <div class="item-name">
+                                            <h5>Mofongo</h5>
+                                            <h6>RD 215</h6>
+                                        </div>
+                                        <hr>
+                                        <small>Far far away, behind the word mountains</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!--------------------------FOOTER SECTION------------------------>
+    <footer>
+        <div class="content-max">
+            <div class="content">
+                <div class="content-footer">
+
+                    <div class="cards">
+
+                        <div class="card">
+                            <div class="title">
+                                <h3>Company</h3>
+                            </div>
+                            
+                            <ul class="links">
+                                <li><span><i class="fa-solid fa-caret-right"></i></span>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li><span><i class="fa-solid fa-caret-right"></i></span>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li><span><i class="fa-solid fa-caret-right"></i></span>
+                                    <a href="#">Reservation</a>
+                                </li>
+                                <li><span><i class="fa-solid fa-caret-right"></i></span>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li><span><i class="fa-solid fa-caret-right"></i></span>
+                                    <a href="#">Terms & Condition</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card">
+                            <div class="title">
+                                <h3>Contact</h3>
+                            </div>
+                            <ul class="content-card">
+                                <li><span><i class="fa-solid fa-location-dot"></i></span><p>126 Street, Houston, USA</p></li>
+                                <li><span><i class="fa-solid fa-phone"></i></span><p>+013 534 50780</p></li>
+                                <li><span><i class="fa-solid fa-envelope"></i></span><p>info@example.com</p></li>
+                            </ul>
+
+                            <ul class="medias">
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card">
+                            <div class="title">
+                                <h3>Opening</h3>
+                            </div>
+
+                            <div class="schedule">
+                                <div class="text">
+                                    <p>Monday-Saturday</p>
+                                    <small>09AM-09PM</small>
+                                </div>
+    
+                                <div class="text">
+                                    <p>Sunday</p>
+                                    <small>10AM-08PM</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card newsletter">
+                            <div class="title">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <p>Far far away, behind the word mountains, far from the word.</p>
+                            <form action="#" method="get" autocomplete="off">
+                                <div class="input-container">
+                                    <input type="email" name="email" id="" placeholder="Your email" required>
+                                <button type="submit" class="btn">SIGNUP</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+
+                    <div class="foot">
+                        <hr>
+                        <div class="content-foot">
+                            <p>&copy; Touch&eacute; <span id="year"></span>, All Right Reserved. Designed By <a href="mailto:web4032@gmail.com">Angelo Dorange</a></p>
+                            <ul class="link">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Cookies</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!---------------------------------------JAVASCRIPT------------------------------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
